@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "version": "beta1-20260911",
+  "package": "com.ea.game.pvz2_row",
+  "game_version": "13.4.1",
+  "version_code": 1055,
+  "status": "BETA_LOCAL_PACKAGE",
+  "resources": {
+    "obb": {
+      "patch": "obb.pvzdelta",
+      "patch_sha256": "511927601594247950b6734da7462b5ac7cc460157a4585b4a39ad0adc23f3da",
+      "source_sha256": "7d1a7850a62c1d04faadf36ce98f8483b4443ee4a74e8e7a2b66cc3884de405c",
+      "target_sha256": "01c62ff04c75f7c6e2d15706f2d382250f9fccba5f7137c7f92c5d9d38536178",
+      "target_bytes": 935989248,
+      "source_bytes": 930496512,
+      "literal_bytes": 6238208,
+      "copy_bytes": 929751040,
+      "operation_count": 3203
+    },
+    "cdn": {
+      "patch": "cdn.pvzdelta",
+      "patch_sha256": "0996898f40c13c8f4539cf6a59bfbaa6e6117a0c0a9111e32e173d376c0afc89",
+      "source_sha256": "b4c1d8756a30f9be34d3a7700759c16b3079fdc94edeba2abe56fbb2ac0059ea",
+      "target_sha256": "f15ce5c37d099ca78d349a1dc72d3f6987d6026b8e207259cfcaaddae1b38e12",
+      "target_bytes": 1478779,
+      "source_bytes": 1301886,
+      "literal_bytes": 1478587,
+      "copy_bytes": 192,
+      "operation_count": 4
+    }
+  },
+  "scope": "Exact previously tested fullfont OBB plus fixed translated CDN",
+  "limitations": [
+    "Not a complete all-screen/combat certification",
+    "Credits excluded; known earlier issue unresolved",
+    "Three OBB-only translation keys from older package are not integrated in this exact tested OBB",
+    "Updates/CDN refresh can change supported hashes; unknown inputs are refused"
+  ],
+  "format": "ZIP ops.json copy/literal + literal.bin; apply with included Python tool"
+}

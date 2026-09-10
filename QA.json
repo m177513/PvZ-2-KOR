@@ -1,0 +1,24 @@
+{
+  "status": "LOCAL_BETA_PACKAGE_VERIFIED",
+  "exact_source_to_target_reconstruction": [
+    "obb",
+    "cdn"
+  ],
+  "installer_safety_tests": {
+    "tests_run": 8,
+    "success": true,
+    "failures": 0,
+    "errors": 0,
+    "device_io": "FAKE_DEVICE; real resource reconstruction is a separate check"
+  },
+  "powershell_entry_syntax": "PASS",
+  "handset_verification": "Packaged verify command read actual S24 target hashes; no device writes",
+  "installer_write_path_on_clean_handset": "NOT_RUN; fake-device rollback and local exact reconstruction tested",
+  "runtime_scope": [
+    "startup and mode selection",
+    "basic zombie description and first 3 cards with reentry",
+    "power zap and upgrade cards first visual observation"
+  ],
+  "release_scope": "beta only; full gameplay/all menus/credits not certified",
+  "public_upload": "NOT_PERFORMED"
+}

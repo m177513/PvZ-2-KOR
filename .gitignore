@@ -1,0 +1,8 @@
+/backups/
+/patched-output/
+__pycache__/
+*.apk
+*.obb
+*.rton
+*.log
+*.zip
